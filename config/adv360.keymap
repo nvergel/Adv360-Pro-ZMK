@@ -38,11 +38,11 @@
     keypad {
       display-name = "Kp";
       bindings = <
-        &none       &none        &none       &none      &none         &none       &trans                                                           &mo 3        &none       &none       &none        &none       &none        &none
-        &none       &kp EXCLAMATION &kp AT   &kp HASH   &kp DLLR      &kp PRCNT   &none                                                            &none        &kp CARET   &kp AMPS    &kp ASTRK    &kp PIPE    &kp UNDER    &none
-        &none       &kp LBRC     &kp LBKT    &kp LPAR   &kp APOS      &kp GRAVE   &none          &kp LCTRL &kp LALT &kp LGUI  &kp RCTRL            &none        &kp EQUAL   &kp DQT     &kp RPAR     &kp RBKT    &kp RBRC     &none
-        &none       &macro_email &macro_user &kp C      &kp TILDE     &kp B                                &kp HOME &kp PG_UP                                   &kp PLUS    &kp MINUS   &none        &none       &kp BSLH     &none
-        &mo 2       &kp GRAVE    &kp CAPS    &kp LEFT   &kp RIGHT                        &trans  &trans    &kp END  &kp PG_DN &trans     &trans                             &kp UP      &kp DOWN     &kp KP_DOT  &kp RBKT     &mo 2
+        &none       &none           &none       &none          &none         &none       &trans                                                           &mo 3        &none       &none       &none        &none       &none        &none
+        &none       &kp EXCLAMATION &kp AT      &kp HASH       &kp DLLR      &kp PRCNT   &none                                                            &none        &kp CARET   &kp AMPS    &kp ASTRK    &kp PIPE    &kp UNDER    &none
+        &none       &kp LBRC        &kp LBKT    &kp LPAR       &kp APOS      &kp GRAVE   &none          &kp LCTRL &kp LALT &kp LGUI  &kp RCTRL            &none        &kp EQUAL   &kp DQT     &kp RPAR     &kp RBKT    &kp RBRC     &none
+        &none       &macro_email    &macro_user &kp macro_pass &kp TILDE     &kp B                                &kp HOME &kp PG_UP                                   &kp PLUS    &kp MINUS   &none        &none       &kp BSLH     &none
+        &mo 2       &kp GRAVE       &kp CAPS    &kp LEFT       &kp RIGHT                        &trans  &trans    &kp END  &kp PG_DN &trans     &trans                             &kp UP      &kp DOWN     &kp KP_DOT  &kp RBKT     &mo 2
       >;
     };
     fn {
